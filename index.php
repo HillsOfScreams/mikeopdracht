@@ -86,13 +86,15 @@ foreach($result as $row){
 <h1>He an thing rapid these after going drawn on. Timed she his law spoil<br>round defer. In suprise concerns informed betrayed he learning is ye.<br>ignorant formerly so ye blessing.</h1>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea doloremque necessitatibus, nisi sequi similique ducimus excepturi repellendus, dolore ex explicabo quas veniam dolores <br> libero. Eveniet numquam laudantium quos provident qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea doloremque necessitatibus, nisi sequi similique ducimus <br>excepturi repellendus, dolore ex explicabo quas veniam dolores libero. Eveniet numquam laudantium quos provident qui! Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Ea doloremque necessitatibus, nisi sequi similique ducimus excepturi repellendus, dolore ex explicabo quas veniam dolores libero. Eveniet numquam laudantium quos provident qui!<br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea doloremque necessitatibus, nisi sequi similique ducimus excepturi repellendus, dolore ex explicabo quas veniam dolores libero. <br>Eveniet numquam laudantium quos provident qui!</p>
 </div>
+</div>
 
-
-
-
-
-
-
+<div class = "picWeetIkVeel">
+<div class="grid-container3">
+   
+    <div class="grid-itemx grid-item-111"><h1>Adress</h1><p>27 13 Lowe Haven</p><img src="https://cdn-icons-png.flaticon.com/128/70/70826.png" alt=""></div>
+    <div class="grid-itemx grid-item-222"><h1>Phone</h1><p>09 1829872821</p><img src="https://cdn-icons-png.flaticon.com/128/70/70677.png" alt="telephone icon"></div>
+    <div class="grid-itemx grid-item-333"><h1>E-mail</h1><p>business@gmail.com</p><img src="https://cdn-icons-png.flaticon.com/128/84/84305.png" alt=""></div>
+    </div>
 </div>
 
 </body>

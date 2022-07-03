@@ -211,13 +211,57 @@ body{
   .between2{
     background-color: rgb(211, 210, 210);
     z-index: 2;
-    height: 1200px;
+    height: 1000px;
   }
   .betweenBetween2{
     display: block;
-    margin-left: 300px;
+    margin-left: 100px;
     padding-top: 0px;
     font-size: 125%;
+  }
+.picWeetIkVeel{
+  background-image: url("https://blog.technosoft.nl/hubfs/Blog%20images/Benchmark-nearshoring.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+
+  /*laatste box*/
+  .grid-container3 {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-auto-rows: minmax(400px, auto);
+    grid-gap: 100px;
+    justify-items: stretch;
+    align-items: stretch;
+    z-index: 0;
+    padding-bottom: 200px;
+    padding-top: 250px;
+    
+  }
+  .grid-itemx.grid-item-333 {
+    z-index: 2;
+    background-color: rgb(211, 210, 210);
+    width: 400px !important;
+    height: 400px !important;
+    max-height: 100%;
+  }
+  .grid-itemx.grid-item-222 {
+    z-index: 2;
+    background-color: rgb(211, 210, 210);
+    width: 400px !important;
+    height: 400px !important;
+    max-height: 100%;
+    
+  }
+  .grid-itemx.grid-item-111 {
+    z-index: 2;
+    background-color: rgb(211, 210, 210);
+    width: 400px !important;
+    height: 400px !important;
+    max-height: 100%;
+    
   }
   
   
@@ -225,16 +269,7 @@ body{
   
   
   
-    /* was aan het kloten, het werkte niet allemaal even goed mee...*/
-    /* box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, 0.45);
-    border-bottom: 2px solid #fff;
-    border-right: 2px solid #fff;
-    margin: 5% auto 0 auto;
-    background-size: cover;
-    border-radius: 5px;
-    overflow: hidden;
-    display: flex;
-    justify-content: flex-end; */
+
 
     
 
