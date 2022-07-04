@@ -47,33 +47,31 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit a
 <img src="https://cdn.photographypro.com/wp-content/uploads/2018/01/black-and-white-photography-skyscrapers.jpg" id="picsmall">
 
 </div>
-<?php
-$sql = "SELECT id, titel, beschrijving FROM box";
-$stmt = $con->prepare($sql);
-$stmt->execute();
-$result = $stmt->fetchall();
-
-$counter = 1;
-foreach($result as $row){
-
-    $counter++;
-}
-?>
 <div class="grid-container">
-    <div class="grid-item grid-item-<?php echo $counter;?>"><?php $row["titel"].$row["beschrijving"];?> </div>
+<?php
+    $sql = "SELECT id, titel, beschrijving FROM box";
+    $stmt = $con->prepare($sql);
+    $stmt->execute();
+    $result = $stmt->fetchall();
+
+    foreach($result as $row){
+        echo "<div class='grid-item'><h2>".$row["titel"]."</h2> <p> ".$row["beschrijving"]."</p></div>";
+    }
+?>
 </div>
 
 
 
 
+
 <div class="grid-container2">
-    <div class="grid-itemx grid-item-11"><img src="https://img3.goodfon.com/wallpaper/nbig/4/4e/buildings-skyscrapers-b-w.jpg" alt="photo" class = "grid-itemx grid-item-11"></div>
-    <div class="grid-itemx grid-item-22"><h2 class ="serve">We create living, breathing structures that inspire and serve.</h2></div>
-    <div class="grid-itemx grid-item-33"><h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae labore exercitationem officiis maiores inventore neque laboriosam! Hic rem praesentium eos harum. Nihil suscipit veniam dicta iusto nulla nobis doloremque itaque. eos harum. Nihil suscipit veniam dicta iusto nulla nobis doloremque itaque.</h2><form action="loginFront.php"><button type="submit" class = "learnMore">Learn more</button></form></div>
-    <div class="grid-itemx grid-item-44"><img src="https://images.pexels.com/photos/1105766/pexels-photo-1105766.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="photo" class = "grid-itemx grid-item-44"></div>
-    <div class="grid-itemx grid-item-55"><img src="https://www.thephotoargus.com/wp-content/uploads/2015/10/Black-and-White-Portrait-3.jpg" alt="photo" class = "grid-itemx grid-item-55"></div>
-    <div class="grid-itemx grid-item-66"><img src="https://mcdn.wallpapersafari.com/medium/17/76/SwBEYI.jpg" alt="photo" class = "grid-itemx grid-item-66"></div>
-    </div>
+    <div class="grid-itemx"><img src="https://img3.goodfon.com/wallpaper/nbig/4/4e/buildings-skyscrapers-b-w.jpg" alt="photo" class = "grid-itemx grid-item-11"></div>
+    <div class="grid-itemx"><h2 class ="serve">We create living, breathing structures that inspire and serve.</h2></div>
+    <div class="grid-itemx"><h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae labore exercitationem officiis maiores inventore neque laboriosam! Hic rem praesentium eos harum. Nihil suscipit veniam dicta iusto nulla nobis doloremque itaque. eos harum. Nihil suscipit veniam dicta iusto nulla nobis doloremque itaque.</h2><form action="loginFront.php"><button type="submit" class = "learnMore">Learn more</button></form></div>
+    <div class="grid-itemx"><img src="https://images.pexels.com/photos/1105766/pexels-photo-1105766.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="photo" class = "grid-itemx grid-item-44"></div>
+    <div class="grid-itemx rounded"><img src="https://www.thephotoargus.com/wp-content/uploads/2015/10/Black-and-White-Portrait-3.jpg" alt="photo" class = "grid-itemx grid-item-55"></div>
+    <div class="grid-itemx"><img src="https://mcdn.wallpapersafari.com/medium/17/76/SwBEYI.jpg" alt="photo" class = "grid-itemx grid-item-66"></div>
+</div>
 
 
 
@@ -86,13 +84,15 @@ foreach($result as $row){
 <h1>He an thing rapid these after going drawn on. Timed she his law spoil<br>round defer. In suprise concerns informed betrayed he learning is ye.<br>ignorant formerly so ye blessing.</h1>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea doloremque necessitatibus, nisi sequi similique ducimus excepturi repellendus, dolore ex explicabo quas veniam dolores <br> libero. Eveniet numquam laudantium quos provident qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea doloremque necessitatibus, nisi sequi similique ducimus <br>excepturi repellendus, dolore ex explicabo quas veniam dolores libero. Eveniet numquam laudantium quos provident qui! Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Ea doloremque necessitatibus, nisi sequi similique ducimus excepturi repellendus, dolore ex explicabo quas veniam dolores libero. Eveniet numquam laudantium quos provident qui!<br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea doloremque necessitatibus, nisi sequi similique ducimus excepturi repellendus, dolore ex explicabo quas veniam dolores libero. <br>Eveniet numquam laudantium quos provident qui!</p>
 </div>
+</div>
 
-
-
-
-
-
-
+<div class = "picWeetIkVeel">
+<div class="grid-container3">
+   
+    <div class="grid-itemx grid-item-111"><img src="https://cdn-icons-png.flaticon.com/128/70/70826.png" alt=""><h1>Adress</h1><p>27 13 Lowe Haven</p></div>
+    <div class="grid-itemx grid-item-222"><img src="https://cdn-icons-png.flaticon.com/128/70/70677.png" alt="telephone icon"><h1>Phone</h1><p>09 1829872821</p></div>
+    <div class="grid-itemx grid-item-333"><img src="https://cdn-icons-png.flaticon.com/128/84/84305.png" alt=""><h1>E-mail</h1><p>business@gmail.com</p></div>
+    </div>
 </div>
 
 </body>
